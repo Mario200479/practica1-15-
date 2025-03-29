@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+    <h2>Registro de Usuarios</h2>
+    <form action="guardar.php" method="POST">
+        <label>Nombre Completo:</label>
+        <input type="text" name="nombre_completo" required><br>
+
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name="fecha_nacimiento" required><br>
+
+        <label>Correo Electrónico:</label>
+        <input type="email" name="correo_electronico" required><br>
+
+        <label>Contraseña:</label>
+        <input type="password" name="contraseña" required><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>
